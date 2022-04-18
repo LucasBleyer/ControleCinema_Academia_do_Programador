@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleCinema.ConsoleApp.ModuloSessao
+namespace ControleCinema.ConsoleApp.ModuloFuncionario
 {
-    internal class Sessao : Compartilhado.EntidadeBase
+    internal class Funcionario : Compartilhado.EntidadeBase
     {
     }
 }

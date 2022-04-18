@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ControleCinema.ConsoleApp.ModuloFilme
 {
-    internal class Filme
+    internal class Filme : Compartilhado.EntidadeBase
     {
+        public Genero Genero
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

@@ -6,14 +6,7 @@ using System.Threading.Tasks;
 
 namespace ControleCinema.ConsoleApp.ModuloSala
 {
-    internal class Sala : Compartilhado.EntidadeBase
+    internal class Assento
     {
-        internal Assento Assento
-        {
-            get => default;
-            set
-            {
-            }
-        }
     }
 }

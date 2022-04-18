@@ -6,14 +6,8 @@ using System.Threading.Tasks;
 
 namespace ControleCinema.ConsoleApp.ModuloVenda
 {
-    internal class Venda : Compartilhado.EntidadeBase
+    public enum TipoVenda
     {
-        internal TipoVenda TipoVenda
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        Adulto, Meia, Infantil
     }
 }
